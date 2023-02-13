@@ -5,3 +5,5 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/ef4f2012545c5529a19c/maintainability)](https://codeclimate.com/github/dzhalilovmikhail/frontend-project-44/maintainability)
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ef4f2012545c5529a19c/test_coverage)](https://codeclimate.com/github/dzhalilovmikhail/frontend-project-44/test_coverage)
+
+[![asciicast](https://asciinema.org/a/559532.svg)](https://asciinema.org/a/559532)
