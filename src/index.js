@@ -15,7 +15,7 @@ export const nod = (firstNumber1, secondNumber2) => {
 
 export const getRandomInt = (max) => {
     return Math.floor(Math.random() * max);
-  };
+};
 
 export const progressive = (a1, d, n, x) => {
 
@@ -44,5 +44,18 @@ export const progressive = (a1, d, n, x) => {
 
     console.log('Qestion:', progStroke);
     return answer;
-  };
+};
 
+export const prime = (number) => {
+    if ( number < 4 ) {
+        return 'yes';
+    };  
+    for (let i = 2; (i < (1 + number/2)); i +=1) {
+        if (number % i === 0) {
+            return 'no';
+        };
+    };
+    
+    return 'yes';
+    
+};
