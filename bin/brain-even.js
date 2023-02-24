@@ -39,7 +39,7 @@ while (i < 3) {
 };
 
 if (i === 3) {
-console.log('Congratulation, ', name,'!');
+console.log('Congratulations, ', name,'!');
 };
 
 
