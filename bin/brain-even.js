@@ -17,7 +17,7 @@ let i = 0;
 
 while (i < 3) {
     let m = getRandomInt(100);
-    console.log("Question: ", m );
+    console.log("Question:", m);
     const name1 = readlineSync.question('Your answer:');
     if ((m % 2 === 0) && (name1 === 'yes')) {
         i +=1;
