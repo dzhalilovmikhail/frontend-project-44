@@ -29,10 +29,10 @@ while (i < 3) {
         i = 0;
         if (m % 2 > 0) {
             console.log("'yes' is wrong answer ;(. Correct answer was 'no'.");
-            console.log("Let's try again, Bill!");
+            console.log(`Let's try again, ${name}!`);
         } else {
             console.log("'no' is wrong answer ;(. Correct answer was 'yes'.");
-            console.log("Let's try again, Bill!");
+            console.log(`Let's try again, ${name}!`);
         };
         break;
     };
