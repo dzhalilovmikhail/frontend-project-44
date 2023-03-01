@@ -20,7 +20,7 @@ while (i < 3) {
 
     var mas = prime(a1);
 
-    console.log('Qestion:', a1);
+    console.log('Question:', a1);
 
     const name1 = readlineSync.question('Your answer: ');
         if (name1 === mas) {

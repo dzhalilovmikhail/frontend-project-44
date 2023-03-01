@@ -18,7 +18,7 @@ while (i < 3) {
     
     let nodNew = nod(m,n);
 
-    console.log('Qestion:', m, n);
+    console.log('Question:', m, n);
 
     const name1 = readlineSync.question('Your answer: ');
     const answer = parseInt(name1, 10);
