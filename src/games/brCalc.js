@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 const getRandomNumber = () => Math.floor(Math.random() * 100);
 const operator = ['+', '-', '*'];
 
-const brainCalc = () => {
+const brCalc = () => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
@@ -45,4 +45,4 @@ const brainCalc = () => {
   }
 };
 
-export default brainCalc;
+export default brCalc;
