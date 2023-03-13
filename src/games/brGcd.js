@@ -22,7 +22,7 @@ const brGcd = () => {
         } else {
             i = 0;
             console.log(`'${name1}' is wrong answer ;(. Correct answer was '${nodNew}.'`);
-            console.log(`Let's try again, name, ${name}!`);
+            console.log(`Let's try again, ${name}!`);
             break;
         }; 
     };
