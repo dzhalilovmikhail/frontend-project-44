@@ -8,9 +8,7 @@ export const nod = (firstNumber1, secondNumber2) => {
             secondNumber = secondNumber - firstNumber;
         };
     };
-
-    return firstNumber + secondNumber // One of them is 0.
-  
+    return firstNumber + secondNumber // One of them is 0.  
 };
 
 export const getRandomInt = (max) => {
@@ -18,20 +16,15 @@ export const getRandomInt = (max) => {
 };
 
 export const progressive = (a1, d, n, x) => {
-
     let answer = 0;
-    
     if (d < 1) {
         d = 1;
     };
-
     if (n < 5) {
         n = 5;
     };
-
     var progStroke = a1 + " ";
     let massive = a1;
-
     for (let i = 0; i < n; i +=1 ) {
         massive = massive + d;
         if (i === x) {
@@ -41,8 +34,7 @@ export const progressive = (a1, d, n, x) => {
         progStroke = progStroke + String(massive) + " ";
         };  
     };
-
-    console.log('Qestion:', progStroke);
+    console.log('Question:', progStroke);
     return answer;
 };
 
@@ -59,7 +51,5 @@ export const prime = (number) => {
             return 'no';
         };
     };
-    
     return 'yes';
-    
 };
